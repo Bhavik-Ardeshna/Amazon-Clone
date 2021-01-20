@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+.header__menue{
+    color: white;
+    margin-left: 10px;
+    /* padding-right: 7px; */
+    margin-top: 5px;
+}
+
+.header__menue:hover{
+    color: #cd9042;
+    
+}
+
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__child{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header__childFirst{
+    font-size: 10px;
+}
+
+.header__childSecond{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__childOrderBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+
+.header__count{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.header__menue{
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .header__menue{
+        display: none;
+    }
+}
